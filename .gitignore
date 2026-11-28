@@ -1,0 +1,19 @@
+# Dependencias de Remix (se vuelven a descargar solas)
+.deps/
+
+# Estado local de Remix (caché, configuración del entorno)
+.states/
+
+# Archivos compilados (ABI, bytecode). Se generan al compilar.
+artifacts/
+
+# Dependencias de Node (por si usas npm en el frontend)
+node_modules/
+
+# Archivos de entorno (¡NUNCA subas claves privadas o seeds!)
+.env
+.env.local
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
